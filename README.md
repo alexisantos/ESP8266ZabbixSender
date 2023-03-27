@@ -2,13 +2,14 @@
 Library to realize the zabbix-sender on ESP8266-Arduino
 
 # How to install this library to Arduino IDE
-## Use git command
-(Windows and default arduino setting)
-
-    cd %USERPROFILE%\Documents\Arduino\libraries
-    git clone https://github.com/erscl/ESP8266ZabbixSender.git
+## Download zip file
 ## Use ZIP import function of the Arduino IDE
-Google it
+1. Import .zip file into arduino IDE using .zip library import function
+2. Check the sketchbook directory (file > preferences). IDE will install the library to this location on /libraries subdirectory)
+3. If the sketchbook directory is different of %USERPROFILE%\Documents\Arduino\, copy the ESP32ZabbixSender directory to
+%USERPROFILE%\Documents\Arduino\libraries
+4. Restart the IDE and try to compile.
+more information about installing libraries here: https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries
 
 # Usage
 See `sample_ESP8266ZabbixSender/sample_ESP8266ZabbixSender.ino`
@@ -24,4 +25,5 @@ See `sample_ESP8266ZabbixSender/sample_ESP8266ZabbixSender.ino`
 
 Refer to the following repository for more information.  
   
-https://github.com/erscl/esp8266_zabbixtemp
+# Based on:  
+https://github.com/zaphodus/ESP8266ZabbixSender
