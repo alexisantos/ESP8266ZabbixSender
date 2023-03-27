@@ -7,7 +7,7 @@
 #include "WProgram.h"
 #endif
 
-#include <ESP8266WiFi.h>
+#include <WiFi.h>
 #define ZABBIXMAXLEN 256 // max 256byte packet
 #define ZABBIXMAXITEM 50 // max 50 items
 #define ZABBIXTIMEOUT 1000 // 1000ms
